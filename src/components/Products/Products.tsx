@@ -61,9 +61,9 @@ export const Products: FunctionComponent = () => {
         return <h3 className={classes.error}>An error occurred when fetching data. Please check the API and try again.</h3>
     }
 
-    if (isLoading) {
-        return <Loader />
-    }
+    // if (isLoading) {
+    //     return <Loader />
+    // }
 
     return (
         <section className={classes.productPage}>
